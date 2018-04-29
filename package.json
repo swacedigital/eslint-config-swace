@@ -1,0 +1,16 @@
+{
+  "name": "eslint-config-swace",
+  "version": "1.0.0",
+  "description": "ESLint configuration for Swace Digital. Based on eslint-config-airbnb.",
+  "main": "index.js",
+  "author": "Alfred Yrelin",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">= 4.15.0",
+    "eslint-config-airbnb": ">= 16.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swacedigital/eslint-config-swace"
+  }
+}
