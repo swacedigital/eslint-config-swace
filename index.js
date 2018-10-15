@@ -16,7 +16,13 @@ module.exports = {
     "react/require-default-props": 0,
     "react/prop-types": 0,
     "keyword-spacing": 0,
-    "max-len": 0,
+    "max-len": [
+      1,
+      {
+        "code": 120,
+        "tabWidth": 2
+      }
+    ],
     "react/no-array-index-key": 0,
     "react/no-did-mount-set-state": 1,
     "jsx-a11y/click-events-have-key-events": 0,
@@ -27,7 +33,8 @@ module.exports = {
         "components": ["Link"],
         "specialLink": ["to"],
       },
-    ]
+    ],
+    "react/prefer-stateless-function": 0,
   },
   "globals": {
     "NODE_ENV": true,
